@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url("abstract-sparkle-heart-pattern-vector-pink-background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.cat-gif {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Allura', cursive;
+  font-size: 42px;
+  color: #e75480;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: 'Playfair Display', serif;
+}
+
+#yesBtn {
+  background: #ff6fa5;
+  color: white;
+}
+
+#yesBtn:hover {
+  background: #ff4f8b;
+}
+
+#noBtn {
+  background: #ddd;
+}
+
+/* Celebration */
+
+.hidden {
+  display: none;
+}
+
+#celebrate {
+  position: fixed;
+  inset: 0;
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dance-cat {
+  width: 200px;
+}
+
+.love-cat {
+  width: 180px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Allura', cursive;
+  font-size: 48px;
+  color: #c2185b;
+  margin-top: 20px;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
